@@ -1,0 +1,27 @@
+
+
+img {
+    
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    
+  
+
+}
+
+
+.Lista-imagem {
+    
+    max-width: 300px;
+    left: 20px;
+    
+    padding: 40px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: blue;
+   
+}
+body {
+    
+}

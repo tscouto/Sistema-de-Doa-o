@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="cabecalho" id="cab1">Home</h1>
+    <h3 class="cabecalho" id="cabecalho1" >Escolha uma categoria para visualizar </h3>
+    <div class="cabecalho" >
+    <select class="opcao1"   name="opções" id="menu">
+        <option id="toll" value="all">Todos</option>
+        <option value="cachorro">Cachorro</option>
+        <option value="gato">Gato</option>
+        <option value="peixe">Peixe</option>
+        <option value="coelho">Coelho</option>
+    </div>
+    </select>
+    <a href="index.html">
+    <button class="sair">Sair</button>
+</a>
+    <div  class="conteudo" id="content">
+        <div class="topo">
+            <p>Resultados encontrados:</p>
+        </div>
+
+
+        <div class="animal" id="L-CACHORRO">
+            
+             <img src="fotos/foto01.jpg" alt="">
+            <div class="detalhes"> 
+                 <span>Cachorro 01 </span>
+                 <span>Pumpkly</span>
+                 <span>3 Anos</span>
+                 
+                 <button class="verDetalhes" id="dog">  Ver detalhes </button>
+                
+            </div>
+        </div>
+    
+    
+        <div class="animal" id="L-GATO"> 
+            <img src="fotos/gato01.jpg" alt="">
+            <div class="detalhes">
+
+                <span> Gato 02 </span>
+                <span>Doly</span>
+                <span>1 Anos</span>
+                <button class="verDetalhes" id="gato" >  Ver detalhes </button>
+            </div>
+        </div>
+    
+    
+        <div class="animal" id="L-COELHO">
+            <img src="fotos/coelho.jpg" alt="">
+            <div class="detalhes">
+                <span> Coelho 03 </span>
+                <span>Thor</span>
+                <span>11 Anos</span>
+                <button class="verDetalhes" id="coelho">  Ver detalhes </button>
+            </div>
+        </div>
+   
+    
+        <div class="animal" id="L-PEIXE">
+            <img src="fotos/peixe.jpg" alt="">
+            <div class="detalhes">
+                <span> Peixe 04 </span>
+                <span>Mikey</span>
+                <span> 3 mes</span>
+                <button class="verDetalhes" id="peixe">  Ver detalhes </button>
+            </div>
+        </div>
+   
+
+    </div>
+
+</body>
+<script src="code.js"> </script>
+
+</html>
