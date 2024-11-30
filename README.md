@@ -42,4 +42,4 @@ Este projeto é um **sistema de doação de pets**, onde usuários podem visuali
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   https://github.com/tscouto/Sistema-de-Doa-o.git
